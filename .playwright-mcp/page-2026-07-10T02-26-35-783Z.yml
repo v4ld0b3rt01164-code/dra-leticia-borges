@@ -1,0 +1,114 @@
+- generic [active] [ref=f1e1]:
+  - navigation "Navegação principal" [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Página inicial" [ref=f1e4] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=f1e5]:
+          - img "Odontologia Dra. Letícia Borges Queiroz" [ref=f1e6]
+          - generic [ref=f1e7]: Dra. Letícia B. Queiroz
+      - link "WhatsApp" [ref=f1e8] [cursor=pointer]:
+        - /url: https://wa.me/5516992314853
+  - main [ref=f1e12]:
+    - region [ref=f1e13]:
+      - img "Fachada da clínica Odontologia Especializada Dra. Letícia Borges Queiroz em Miguelópolis-SP, com revestimento em mosaico de pedra e jardineiras" [ref=f1e14]
+      - generic [ref=f1e16]:
+        - heading "Sorriso que transforma, cuidado que acolhe." [level=1] [ref=f1e17]:
+          - generic [ref=f1e18]: Sorriso que transforma,
+          - generic [ref=f1e19]: cuidado que acolhe.
+        - paragraph [ref=f1e20]: Ortodontia especializada em Miguelópolis. A confiança de 5.0★ no Google, a apenas um toque de distância.
+        - generic [ref=f1e21]:
+          - link "Agende sua consulta" [ref=f1e22] [cursor=pointer]:
+            - /url: https://wa.me/5516992314853
+          - paragraph [ref=f1e26]: "WhatsApp: +55 16 99231-4853"
+        - generic "Avaliação 5 de 5 estrelas, 18 avaliações no Google" [ref=f1e27]:
+          - generic [ref=f1e28]: ★★★★★
+          - generic [ref=f1e29]: 5.0 — 18 avaliações no Google
+    - region [ref=f1e34]:
+      - generic [ref=f1e36]:
+        - generic [ref=f1e37]:
+          - heading "Odontologia com raiz em Miguelópolis" [level=2] [ref=f1e38]
+          - paragraph [ref=f1e39]:
+            - text: A
+            - strong [ref=f1e40]: Dra. Letícia Borges Queiroz
+            - text: (CRO/SP 71554) é cirurgiã-dentista formada pela Faculdade de Odontologia de Barretos, com atuação especializada em
+            - strong [ref=f1e41]: Ortodontia
+            - text: .
+          - paragraph [ref=f1e42]: "Sua clínica em Miguelópolis-SP carrega o orgulho de ser local: uma odontologia que entende a realidade da região, onde cada paciente é tratado com a proximidade e o respeito de quem cuida da própria comunidade."
+          - generic [ref=f1e46]:
+            - strong [ref=f1e47]: "A CONFIRMAR COM A CLIENTE:"
+            - text: tempo de carreira, diferenciais e abordagem com pacientes ansiosos.
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49]:
+              - generic [ref=f1e50]: 5.0★
+              - generic [ref=f1e51]: Google
+              - generic [ref=f1e52]: 18 avaliações
+            - generic [ref=f1e53]:
+              - generic [ref=f1e54]: CRO/SP
+              - generic [ref=f1e55]: "71554"
+              - generic [ref=f1e56]: Ortodontia
+            - generic [ref=f1e57]:
+              - generic [ref=f1e58]: Barretos
+              - generic [ref=f1e59]: Formação
+              - generic [ref=f1e60]: Fac. Odontologia
+        - generic [ref=f1e61]: Clínica em Miguelópolis-SP
+    - region [ref=f1e66]:
+      - generic [ref=f1e67]:
+        - heading "Áreas de atuação" [level=2] [ref=f1e68]
+        - generic [ref=f1e69]:
+          - article [ref=f1e70]:
+            - heading "Ortodontia" [level=3] [ref=f1e74]
+            - paragraph [ref=f1e75]: Especialidade confirmada. Aparelhos ortodônticos, alinhadores e correção de mordida.
+          - article [ref=f1e76]:
+            - heading "A CONFIRMAR" [level=3] [ref=f1e80]
+            - paragraph [ref=f1e81]: Lista de procedimentos pendente de confirmação com a cliente.
+          - article [ref=f1e82]:
+            - heading "A CONFIRMAR" [level=3] [ref=f1e86]
+            - paragraph [ref=f1e87]: Lista de procedimentos pendente de confirmação com a cliente.
+        - generic [ref=f1e91]:
+          - strong [ref=f1e92]: "A CONFIRMAR COM A CLIENTE:"
+          - text: procedimentos adicionais (limpeza, clareamento, próteses, etc.), horário de funcionamento e se atende convênios.
+    - region [ref=f1e97]:
+      - generic [ref=f1e98]:
+        - heading "Quem confia, recomenda" [level=2] [ref=f1e99]
+        - generic [ref=f1e100]:
+          - article [ref=f1e101]:
+            - generic "5 estrelas" [ref=f1e102]: ★★★★★
+            - blockquote [ref=f1e103]:
+              - paragraph [ref=f1e104]: "\"Ótimo atendimento, muito atenciosa e cuidadosa\""
+            - generic [ref=f1e105]: — Paciente, Google Reviews
+          - generic [ref=f1e106]:
+            - generic [ref=f1e107]: ★★★★★
+            - blockquote [ref=f1e108]:
+              - paragraph [ref=f1e109]: Espaço reservado para depoimentos de pacientes. Envie o seu!
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]: ★★★★★
+            - blockquote [ref=f1e112]:
+              - paragraph [ref=f1e113]: Espaço reservado para depoimentos de pacientes. Envie o seu!
+    - region [ref=f1e118]:
+      - generic [ref=f1e119]:
+        - heading "Venha nos visitar" [level=2] [ref=f1e120]
+        - generic [ref=f1e121]:
+          - generic [ref=f1e122]:
+            - generic [ref=f1e126]:
+              - strong [ref=f1e127]: Endereço
+              - text: R. José Francisco Peixoto, 795 Centro, Miguelópolis - SP
+            - generic [ref=f1e131]:
+              - strong [ref=f1e132]: Horário de funcionamento
+              - text: A CONFIRMAR COM O CLIENTE
+            - link "+55 16 99231-4853" [ref=f1e133] [cursor=pointer]:
+              - /url: https://wa.me/5516992314853
+          - generic "Mapa de localização da clínica em Miguelópolis-SP" [ref=f1e138]:
+            - generic [ref=f1e139]:
+              - paragraph [ref=f1e142]: R. José Francisco Peixoto, 795 — Miguelópolis-SP
+              - link "Abrir no Google Maps" [ref=f1e143] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=R.+José+Francisco+Peixoto+795+Miguelópolis+SP
+  - contentinfo [ref=f1e144]:
+    - generic [ref=f1e145]:
+      - generic [ref=f1e146]:
+        - generic [ref=f1e147]:
+          - img "Odontologia Dra. Letícia Borges Queiroz" [ref=f1e148]
+          - generic [ref=f1e149]: Dra. Letícia B. Queiroz
+        - paragraph [ref=f1e150]: CRO/SP 71554 — Ortodontia
+      - link "Agende sua consulta" [ref=f1e152] [cursor=pointer]:
+        - /url: https://wa.me/5516992314853
+      - paragraph [ref=f1e156]: © 2026 Odontologia Dra. Letícia Borges Queiroz. Miguelópolis-SP.
