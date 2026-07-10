@@ -1,0 +1,736 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Logo from '../components/Logo.astro';
+import HorizonDivider from '../components/HorizonDivider.astro';
+import WhatsAppButton from '../components/WhatsAppButton.astro';
+---
+
+<BaseLayout
+  title="Dra. Letícia Borges Queiroz — Odontologia Especializada | Miguelópolis-SP"
+  description="Cirurgiã-dentista especialista em Ortodontia. Atendimento acolhedor em Miguelópolis-SP. 5.0★ no Google. Agende sua consulta pelo WhatsApp."
+>
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo" aria-label="Página inicial">
+        <Logo />
+      </a>
+      <WhatsAppButton variant="outline" label="WhatsApp" />
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" role="presentation">
+        <img
+          src="/assets/fachada.jpg"
+          alt="Fachada da clínica Odontologia Especializada Dra. Letícia Borges Queiroz em Miguelópolis-SP, com revestimento em mosaico de pedra e jardineiras"
+          class="hero-img"
+          loading="eager"
+          decoding="async"
+        />
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-content">
+        <h1 id="hero-heading" class="hero-headline">
+          <span class="hero-line">Sorriso que transforma,</span>
+          <span class="hero-line hero-line--accent">cuidado que acolhe.</span>
+        </h1>
+        <p class="hero-sub">
+          Ortodontia especializada em Miguelópolis.<br />
+          A confiança de 5.0<span class="hero-star">★</span> no Google, a apenas um toque de distância.
+        </p>
+        <div class="hero-cta">
+          <WhatsAppButton variant="primary" label="Agende sua consulta" />
+          <p class="hero-cta-note">WhatsApp: +55 16 99231-4853</p>
+        </div>
+        <div class="hero-stars" aria-label="Avaliação 5 de 5 estrelas, 18 avaliações no Google">
+          <span class="stars-visual" aria-hidden="true">★★★★★</span>
+          <span class="stars-text">5.0 — 18 avaliações no Google</span>
+        </div>
+      </div>
+    </section>
+
+    <HorizonDivider />
+
+    <!-- Sobre -->
+    <section class="section sobre" aria-labelledby="sobre-heading">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-text">
+            <h2 id="sobre-heading">Odontologia com raiz em Miguelópolis</h2>
+            <p>
+              A <strong>Dra. Letícia Borges Queiroz</strong> (CRO/SP 71554) é cirurgiã-dentista
+              formada pela Faculdade de Odontologia de Barretos, com atuação especializada em
+              <strong>Ortodontia</strong>.
+            </p>
+            <p>
+              Sua clínica em Miguelópolis-SP carrega o orgulho de ser local: uma odontologia que
+              entende a realidade da região, onde cada paciente é tratado com a proximidade e o
+              respeito de quem cuida da própria comunidade.
+            </p>
+            <div class="sobre-placeholder">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+              </svg>
+              <span><strong>A CONFIRMAR COM A CLIENTE:</strong> tempo de carreira, diferenciais e abordagem com pacientes ansiosos.</span>
+            </div>
+            <div class="sobre-badges">
+              <div class="badge">
+                <span class="badge-value">5.0★</span>
+                <span class="badge-label">Google</span>
+                <span class="badge-sub">18 avaliações</span>
+              </div>
+              <div class="badge">
+                <span class="badge-value">CRO/SP</span>
+                <span class="badge-label">71554</span>
+                <span class="badge-sub">Ortodontia</span>
+              </div>
+              <div class="badge">
+                <span class="badge-value">Barretos</span>
+                <span class="badge-label">Formação</span>
+                <span class="badge-sub">Fac. Odontologia</span>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-image" role="presentation">
+            <img
+              src="/assets/fachada.jpg"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              class="sobre-img"
+            />
+            <div class="sobre-img-caption" aria-hidden="true">Clínica em Miguelópolis-SP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <HorizonDivider />
+
+    <!-- Serviços -->
+    <section class="section servicos" aria-labelledby="servicos-heading">
+      <div class="container">
+        <h2 id="servicos-heading" class="servicos-title">Áreas de atuação</h2>
+        <div class="servicos-grid">
+          <article class="servico-card servico-card--confirmed">
+            <div class="servico-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="var(--oliva-campo)"/>
+              </svg>
+            </div>
+            <h3>Ortodontia</h3>
+            <p>Especialidade confirmada. Aparelhos ortodônticos, alinhadores e correção de mordida.</p>
+          </article>
+
+          <article class="servico-card servico-card--pending">
+            <div class="servico-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="var(--verde-jardineira)"/>
+              </svg>
+            </div>
+            <h3>A CONFIRMAR</h3>
+            <p class="placeholder-text">Lista de procedimentos pendente de confirmação com a cliente.</p>
+          </article>
+
+          <article class="servico-card servico-card--pending">
+            <div class="servico-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="var(--verde-jardineira)"/>
+              </svg>
+            </div>
+            <h3>A CONFIRMAR</h3>
+            <p class="placeholder-text">Lista de procedimentos pendente de confirmação com a cliente.</p>
+          </article>
+        </div>
+        <div class="servicos-placeholder-banner">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="currentColor"/>
+          </svg>
+          <span><strong>A CONFIRMAR COM A CLIENTE:</strong> procedimentos adicionais (limpeza, clareamento, próteses, etc.), horário de funcionamento e se atende convênios.</span>
+        </div>
+      </div>
+    </section>
+
+    <HorizonDivider />
+
+    <!-- Avaliações -->
+    <section class="section avaliacoes" aria-labelledby="avaliacoes-heading">
+      <div class="container">
+        <h2 id="avaliacoes-heading" class="avaliacoes-title">Quem confia, recomenda</h2>
+        <div class="avaliacoes-grid">
+          <article class="review-card review-card--featured">
+            <div class="review-stars" aria-label="5 estrelas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote>
+              <p>"Ótimo atendimento, muito atenciosa e cuidadosa"</p>
+            </blockquote>
+            <cite class="review-source">— Paciente, Google Reviews</cite>
+          </article>
+
+          <div class="review-card review-card--placeholder">
+            <div class="review-stars review-stars--muted" aria-hidden="true">★★★★★</div>
+            <blockquote>
+              <p class="placeholder-text">Espaço reservado para depoimentos de pacientes. Envie o seu!</p>
+            </blockquote>
+          </div>
+
+          <div class="review-card review-card--placeholder">
+            <div class="review-stars review-stars--muted" aria-hidden="true">★★★★★</div>
+            <blockquote>
+              <p class="placeholder-text">Espaço reservado para depoimentos de pacientes. Envie o seu!</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <HorizonDivider />
+
+    <!-- Localização -->
+    <section class="section localizacao" aria-labelledby="local-heading">
+      <div class="container">
+        <h2 id="local-heading" class="local-title">Venha nos visitar</h2>
+        <div class="local-grid">
+          <div class="local-info">
+            <address class="local-address">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="var(--oliva-campo)"/>
+              </svg>
+              <div>
+                <strong>Endereço</strong><br />
+                R. José Francisco Peixoto, 795<br />
+                Centro, Miguelópolis - SP
+              </div>
+            </address>
+            <div class="local-horario">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" fill="var(--oliva-campo)"/>
+              </svg>
+              <div>
+                <strong>Horário de funcionamento</strong><br />
+                <span class="placeholder-text">A CONFIRMAR COM O CLIENTE</span>
+              </div>
+            </div>
+            <a
+              href="https://wa.me/5516992314853"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="local-whatsapp"
+            >
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M17.5 14.5c-.3-.2-.8-.4-1.2-.3-.4.1-1.1.4-1.3.5-.2.1-.4 0-.6-.2-.8-.9-1.6-1.8-2.3-2.8-.1-.2 0-.4.2-.5l.8-.7c.2-.2.4-.5.5-.8s0-.7-.1-1c-.1-.3-.7-1.4-.9-1.8-.2-.4-.5-.5-.8-.5h-.7c-.3 0-.7.1-1 .4-.8.8-1.1 2-.6 3.1.7 1.5 1.8 2.8 3 3.8 1.3 1.1 2.8 1.9 4.4 2.3.5.1 1 .2 1.5.1.3 0 .7-.2.9-.5.3-.3.5-.7.4-1.1-.2-.7-.9-1.5-1.6-1.7Z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.7 19.9 4.8 16A9.1 9.1 0 0 1 3 11.6 9 9 0 1 1 6.2 19l-2.5.9Zm2.2-1.3-.6 2 2.1-.8.6.4a7.5 7.5 0 1 0-2.6-2.5l.5.9Z" fill="currentColor"/>
+              </svg>
+              <span>+55 16 99231-4853</span>
+            </a>
+          </div>
+          <div class="local-map" aria-label="Mapa de localização da clínica em Miguelópolis-SP">
+            <div class="map-placeholder">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="var(--oliva-campo)" opacity="0.3"/>
+              </svg>
+              <p>R. José Francisco Peixoto, 795 — Miguelópolis-SP</p>
+              <a href="https://maps.google.com/?q=R.+José+Francisco+Peixoto+795+Miguelópolis+SP" target="_blank" rel="noopener noreferrer" class="map-link">Abrir no Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <Logo />
+        <p class="footer-cro">CRO/SP 71554 — Ortodontia</p>
+      </div>
+      <div class="footer-cta">
+        <WhatsAppButton variant="primary" label="Agende sua consulta" />
+      </div>
+      <p class="footer-copy">
+        © 2026 Odontologia Dra. Letícia Borges Queiroz. Miguelópolis-SP.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Fixed mobile WhatsApp -->
+  <div class="mobile-cta-wrapper" aria-hidden="true">
+    <WhatsAppButton variant="fixed-mobile" label="WhatsApp" />
+  </div>
+</BaseLayout>
+
+<style>
+  /* Navigation */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(107, 74, 50, 0.1);
+    padding-block: var(--space-xs);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100svh;
+    padding-block: var(--space-3xl);
+    overflow: hidden;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg,
+        rgba(44, 42, 39, 0.55) 0%,
+        rgba(68, 58, 42, 0.6) 40%,
+        rgba(107, 74, 50, 0.7) 100%
+      );
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding-top: clamp(4rem, 10vw, 7rem);
+    color: #fff;
+  }
+  .hero-headline {
+    max-width: 20ch;
+  }
+  .hero-line {
+    display: block;
+  }
+  .hero-line--accent {
+    color: var(--oliva-campo);
+  }
+  .hero-sub {
+    margin-top: var(--space-md);
+    font-size: clamp(1.0625rem, 2vw, 1.25rem);
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 45ch;
+    text-wrap: balance;
+  }
+  .hero-star {
+    color: var(--oliva-campo);
+    font-size: 1.1em;
+  }
+  .hero-cta {
+    margin-top: var(--space-lg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .hero-cta-note {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.65);
+    max-width: none;
+  }
+  .hero-stars {
+    margin-top: var(--space-md);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+  .stars-visual {
+    color: var(--oliva-campo);
+    font-size: 1.25rem;
+    letter-spacing: 0.1em;
+  }
+  .stars-text {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* Sobre */
+  .sobre-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    align-items: center;
+  }
+  .sobre-text h2 {
+    margin-bottom: var(--space-md);
+    color: var(--grafite);
+  }
+  .sobre-text p {
+    color: var(--verde-jardineira);
+    margin-bottom: var(--space-sm);
+  }
+  .sobre-placeholder {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    border: 1.5px dashed var(--oliva-campo);
+    border-radius: 8px;
+    background: rgba(156, 177, 58, 0.05);
+    font-size: 0.875rem;
+    color: var(--verde-jardineira);
+  }
+  .sobre-placeholder svg {
+    flex-shrink: 0;
+    margin-top: 1px;
+    color: var(--oliva-campo);
+  }
+  .sobre-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(107, 74, 50, 0.08);
+    min-width: 110px;
+  }
+  .badge-value {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: var(--oliva-campo);
+  }
+  .badge-label {
+    font-size: 0.8125rem;
+    color: var(--grafite);
+    font-weight: 600;
+  }
+  .badge-sub {
+    font-size: 0.6875rem;
+    color: var(--verde-jardineira);
+  }
+  .sobre-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(107, 74, 50, 0.15);
+  }
+  .sobre-img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+  .sobre-img-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-xs) var(--space-sm);
+    background: rgba(44, 42, 39, 0.75);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    .sobre-grid {
+      grid-template-columns: 1.2fr 1fr;
+    }
+  }
+
+  /* Serviços */
+  .servicos {
+    background: #fff;
+  }
+  .servicos-title {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+    color: var(--grafite);
+  }
+  .servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-md);
+  }
+  .servico-card {
+    padding: var(--space-lg);
+    border-radius: 12px;
+    border: 1px solid rgba(107, 74, 50, 0.12);
+    transition: box-shadow 0.3s ease;
+  }
+  .servico-card--confirmed {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(107, 74, 50, 0.06);
+  }
+  .servico-card--confirmed:hover {
+    box-shadow: 0 4px 20px rgba(107, 74, 50, 0.1);
+  }
+  .servico-card--pending {
+    background: rgba(241, 237, 227, 0.5);
+    border-style: dashed;
+    border-color: rgba(156, 177, 58, 0.3);
+  }
+  .servico-icon {
+    margin-bottom: var(--space-sm);
+  }
+  .servico-card h3 {
+    margin-bottom: var(--space-xs);
+    color: var(--grafite);
+  }
+  .servico-card p {
+    font-size: 0.9375rem;
+    color: var(--verde-jardineira);
+  }
+  .servico-card .placeholder-text {
+    font-style: italic;
+    color: var(--verde-jardineira);
+    opacity: 0.65;
+  }
+  .servicos-placeholder-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    margin-top: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    border: 1.5px dashed var(--oliva-campo);
+    border-radius: 8px;
+    background: rgba(156, 177, 58, 0.05);
+    font-size: 0.875rem;
+    color: var(--verde-jardineira);
+  }
+  .servicos-placeholder-banner svg {
+    flex-shrink: 0;
+    margin-top: 1px;
+    color: var(--oliva-campo);
+  }
+
+  /* Avaliações */
+  .avaliacoes-title {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+    color: var(--grafite);
+  }
+  .avaliacoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-md);
+  }
+  .review-card {
+    padding: var(--space-lg);
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid rgba(107, 74, 50, 0.1);
+  }
+  .review-card--featured {
+    box-shadow: 0 2px 12px rgba(107, 74, 50, 0.08);
+  }
+  .review-card--featured blockquote p {
+    font-size: 1.0625rem;
+    color: var(--grafite);
+    font-style: italic;
+  }
+  .review-card--placeholder {
+    background: rgba(241, 237, 227, 0.4);
+    border-style: dashed;
+  }
+  .review-card--placeholder blockquote p {
+    font-size: 0.9375rem;
+    font-style: italic;
+    color: var(--verde-jardineira);
+    opacity: 0.6;
+  }
+  .review-stars {
+    color: var(--oliva-campo);
+    font-size: 1.125rem;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-sm);
+  }
+  .review-stars--muted {
+    opacity: 0.35;
+  }
+  .review-source {
+    display: block;
+    margin-top: var(--space-sm);
+    font-size: 0.8125rem;
+    font-style: normal;
+    color: var(--verde-jardineira);
+  }
+
+  /* Localização */
+  .localizacao {
+    background: #fff;
+  }
+  .local-title {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+    color: var(--grafite);
+  }
+  .local-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .local-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .local-address,
+  .local-horario {
+    display: flex;
+    gap: var(--space-sm);
+    font-size: 0.9375rem;
+    color: var(--grafite);
+    line-height: 1.6;
+  }
+  .local-address svg,
+  .local-horario svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .local-address strong,
+  .local-horario strong {
+    font-family: var(--font-display);
+    font-weight: 600;
+  }
+  .local-horario .placeholder-text {
+    font-style: italic;
+    color: var(--verde-jardineira);
+    opacity: 0.7;
+  }
+  .local-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 999px;
+    background: var(--oliva-campo);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    width: fit-content;
+    transition: transform 0.2s ease;
+  }
+  .local-whatsapp:hover {
+    transform: translateY(-1px);
+  }
+  .local-map {
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--creme-quente);
+    min-height: 240px;
+  }
+  .map-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    height: 100%;
+    min-height: 240px;
+    padding: var(--space-lg);
+    text-align: center;
+    color: var(--verde-jardineira);
+    font-size: 0.9375rem;
+  }
+  .map-link {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-md);
+    border-radius: 999px;
+    border: 1.5px solid var(--oliva-campo);
+    color: var(--oliva-campo);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .map-link:hover {
+    background: var(--oliva-campo);
+    color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    .local-grid {
+      grid-template-columns: 1fr 1.2fr;
+    }
+  }
+
+  /* Footer */
+  .footer {
+    background: var(--bronze-pedra);
+    color: rgba(255, 255, 255, 0.85);
+    padding-block: var(--space-xl);
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+    text-align: center;
+  }
+  .footer-inner :global(.logo-text) {
+    color: #fff;
+  }
+  .footer-cro {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .footer-copy {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    max-width: none;
+  }
+
+  @media (min-width: 768px) {
+    .footer-inner {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+    .footer-copy {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  /* Mobile fixed WhatsApp */
+  .mobile-cta-wrapper {
+    position: fixed;
+    bottom: var(--space-md);
+    right: var(--space-md);
+    z-index: 50;
+  }
+  @media (min-width: 768px) {
+    .mobile-cta-wrapper {
+      display: none;
+    }
+  }
+</style>

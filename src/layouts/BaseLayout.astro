@@ -1,0 +1,23 @@
+---
+import '../styles/global.css';
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title || 'Dra. Letícia Borges Queiroz — Odontologia Especializada'}</title>
+    <meta name="description" content={description || 'Cirurgiã-dentista especialista em Ortodontia. Atendimento em Miguelópolis-SP. Agende sua consulta pelo WhatsApp.'} />
+    <meta name="theme-color" content="#9CB13A" />
+    <meta property="og:title" content={title || 'Dra. Letícia Borges Queiroz — Odontologia Especializada'} />
+    <meta property="og:description" content={description || 'Cirurgiã-dentista especialista em Ortodontia em Miguelópolis-SP. 5.0★ no Google.'} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

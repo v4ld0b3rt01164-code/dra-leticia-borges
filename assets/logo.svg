@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9D14A"/>
+      <stop offset="100%" stop-color="#8FA83C"/>
+    </linearGradient>
+    <clipPath id="toothClip">
+      <path d="M150 38 C170 38 195 42 210 60 C228 82 240 110 242 135 C244 155 243 172 240 188 C236 210 228 228 220 242 C212 254 205 262 195 268 C185 273 170 275 155 275 C140 275 128 273 120 270 C108 265 98 255 90 242 C80 226 72 208 68 188 C64 168 63 148 64 130 C66 108 72 86 84 66 C95 48 110 40 125 38 C133 37 142 38 150 38 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="300" height="300" fill="white" rx="12"/>
+
+  <g>
+    <!-- Tooth outline -->
+    <path d="M150 36 C172 36 198 40 214 60 C233 84 244 114 246 140 C248 160 246 176 243 192 C238 214 229 232 221 246 C213 258 206 266 196 272 C186 277 170 279 154 279 C138 279 125 277 117 274 C105 269 95 259 87 246 C76 229 68 210 64 189 C60 169 59 148 61 128 C63 104 69 80 82 60 C94 42 109 34 125 32 C133 31 142 32 150 36 Z"
+          fill="url(#toothGrad)" stroke="url(#toothGrad)" stroke-width="2"/>
+
+    <!-- Inner white silhouette shape -->
+    <path d="M142 55 C158 55 180 59 193 74 C208 92 218 118 220 138 C222 153 220 166 217 180 C212 200 204 216 196 228 C189 238 183 246 174 252 C166 257 153 259 140 259 C127 259 117 257 108 253 C97 247 87 237 80 225 C71 211 64 194 60 176 C56 161 55 144 57 127 C59 106 64 87 74 70 C84 55 95 49 107 45 C114 43 121 43 128 43"
+          fill="white"/>
+
+    <!-- Landscape silhouette inside tooth -->
+    <path d="M71 215 L78 208 L85 200 L92 205 L100 195 L108 198 L115 188 L122 192 L130 183 L137 186 L145 176 L152 180 L160 170 L167 174 L175 165 L182 168 L190 158 L197 162 L205 153 L212 156 L218 162 L225 158 L232 168 L238 160 L244 170
+             L244 255 L71 255 Z"
+          fill="#9CB13A" opacity="0.85"/>
+
+    <!-- Subtle tree/shrub silhouettes on horizon -->
+    <ellipse cx="95" cy="202" rx="10" ry="14" fill="#8FA83C" opacity="0.7"/>
+    <ellipse cx="102" cy="198" rx="14" ry="18" fill="#8FA83C" opacity="0.6"/>
+    <ellipse cx="175" cy="188" rx="12" ry="16" fill="#8FA83C" opacity="0.7"/>
+    <ellipse cx="185" cy="185" rx="15" ry="20" fill="#8FA83C" opacity="0.6"/>
+    <ellipse cx="215" cy="165" rx="8" ry="10" fill="#8FA83C" opacity="0.5"/>
+
+    <!-- Highlight line top-left of tooth -->
+    <path d="M130 50 C120 53 110 60 102 68"
+          fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
