@@ -65,7 +65,7 @@ components:
 
 O sistema visual traduz a fachada real da clínica — mosaico de pedra em tons bronze, colunas verde-oliva, jardineiras — para a tela. Não é uma paleta odontológica genérica; é a extensão digital de um lugar real em Miguelópolis-SP.
 
-A marca recusa azul clínico, branco-gelo hospitalar e o clichê cream-serif-terracota da IA. Em vez disso, ancora-se em cinco cores nomeadas extraídas diretamente do logo (dente com paisagem de campo) e da fachada fotografada. O resultado é uma identidade que respira o orgulho de ser local — uma odontologia que pertence à terra, não a um template.
+A marca recusa azul clínico, branco-gelo hospitalar e o clichê cream-serif-terracota da IA. Em vez disso, ancora-se em cinco cores nomeadas extraídas diretamente da fachada fotografada. O logo real (dente dourado com "ODONTOLOGIA ESPECIALIZADA") carrega a identidade da clínica. O resultado é uma identidade que respira o orgulho de ser local — uma odontologia que pertence à terra, não a um template.
 
 **Key Characteristics:**
 - Paleta derivada de assets reais (logo + fachada), não de tendência de segmento
@@ -80,7 +80,7 @@ A marca recusa azul clínico, branco-gelo hospitalar e o clichê cream-serif-ter
 Cinco cores nomeadas, cada uma ancorada em um elemento físico da clínica. Estratégia: **Committed** — o oliva-campo carrega 30-60% da superfície de destaque (botões, ícones, estrelas, texto de acento).
 
 ### Primary
-- **Oliva Campo** (#9CB13A): Cor de assinatura, extraída do gradiente do dente no logo. Usada em botões CTA, estrelas de avaliação, texto de destaque no hero, divisores de seção e ícones. É a voz da marca — aparece onde a ação importa.
+- **Oliva Campo** (#9CB13A): Cor de assinatura, ancorada nos tons verde-acinzentados da fachada (colunas, jardineiras). Usada em botões CTA, estrelas de avaliação, texto de destaque no hero, divisores de seção e ícones. É a voz da marca — aparece onde a ação importa.
 
 ### Neutral
 - **Bronze Pedra** (#6B4A32): Tom do mosaico da fachada. Usado no footer como fundo escuro, em overlays do hero e em bordas sutis. Traz o peso da pedra real para a interface.
@@ -146,7 +146,7 @@ Sistema plano por padrão, com elevação sutil onde a hierarquia pede. Sem somb
 
 ### Dividers (Horizon)
 
-- **Style:** SVG inline com duas curvas sobrepostas em oliva-campo com opacidades 0.18 e 0.12. Silhueta de horizonte ondulado — o elemento de assinatura do logo ecoando como divisor de seção.
+- **Style:** SVG inline com duas curvas sobrepostas em oliva-campo com opacidades 0.18 e 0.12. Silhueta de horizonte ondulado — elemento de assinatura que reforça a identidade rural da região de Miguelópolis.
 - **Uso:** Entre hero e conteúdo, e entre seções principais. Altura fluida (clamp(32px, 5vw, 60px)).
 
 ### Badges
@@ -163,7 +163,7 @@ Sistema plano por padrão, com elevação sutil onde a hierarquia pede. Sem somb
 
 ### Do:
 - **Do** usar a foto real da fachada (`fachada.jpg`) no hero e na seção sobre — nunca substituir por banco de imagens genérico.
-- **Do** usar o logo SVG com o dente estilizado e paisagem de campo interna — nunca substituir por clip-art de dente genérico.
+- **Do** usar o logo real da cliente (`logo.png`, dente dourado com "ODONTOLOGIA ESPECIALIZADA") — nunca substituir por clip-art de dente genérico.
 - **Do** usar os divisores de horizonte entre seções como elemento de assinatura recorrente.
 - **Do** sinalizar todo conteúdo pendente com o sistema de placeholder (borda tracejada + label "A CONFIRMAR COM A CLIENTE").
 - **Do** manter o CTA WhatsApp sempre visível (nav desktop + botão fixed mobile).
@@ -171,7 +171,7 @@ Sistema plano por padrão, com elevação sutil onde a hierarquia pede. Sem somb
 - **Do** respeitar `prefers-reduced-motion: reduce` em todas as animações e transições.
 
 ### Don't:
-- **Don't** usar azul clínico "hospitalar" ou branco-gelo genérico — a marca já rejeitou essa direção ao escolher tons terrosos/oliva no próprio logo.
+- **Don't** usar azul clínico "hospitalar" ou branco-gelo genérico — a marca já rejeitou essa direção ao escolher tons terrosos/oliva na fachada.
 - **Don't** usar ícone de dente genérico de stock — a cliente já tem um logo próprio distinto; usá-lo, não substituir por clip-art.
 - **Don't** cair nos 3 clichês de design gerado por IA: fundo creme + serifada + terracota (#D97757); fundo quase-preto + acento neon; layout jornal com colunas densas.
 - **Don't** inventar texto institucional vazio ("excelência no atendimento odontológico com foco no paciente") sem informação concreta.
